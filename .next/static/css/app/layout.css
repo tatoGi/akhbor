@@ -136,10 +136,14 @@ body {
 
 .contact-left {
   text-align: left;
+  font-size:25px;
+  font-weight: bold;
 }
 
 .contact-right {
   text-align: right;
+  font-size:25px;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {

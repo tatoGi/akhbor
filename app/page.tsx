@@ -7,7 +7,7 @@ export default function Home() {
     // Auto-redirect after 10 seconds
     const timer = setTimeout(() => {
       window.location.href = 'http://www.akbor.com.tr/'
-    }, 5000)
+    }, 10000)
 
     return () => clearTimeout(timer)
   }, [])
