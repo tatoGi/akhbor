@@ -14,35 +14,13 @@ export default function Home() {
 
   return (
     <>
-    
-      
-      <div className="main-container">
-        <div className="logo-section">
-          <div className="company-name">
-            <span className="ak">AK</span><span className="bor">BOR</span><sup>®</sup>
-          </div>
-          <div className="caucasus">CAUCASUS</div>
-        </div>
+      {/* Background Video */}
+      <video className="bg-video" autoPlay muted loop playsInline preload="auto">
+        <source src="/Akhbor_video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
-        <div className="slogan">
-          «МЫ ДАЛИ НАПРАВЛЕНИЕ ВОДЕ...»
-        </div>
-        
-        <div className="sub-slogan">
-          «МЫ ДАЛИ НАПРАВЛЕНИЕ ВОДЕ....»
-        </div>
-
-        <div className="contact-info">
-          <div className="contact-left">
-            Адрес: Грузия, Тбилиси;<br />
-            Проспект Важа-Пшавела, 29а
-          </div>
-          <div className="contact-right">
-            www.akborcaucasus.com;<br />
-            Mob: +(995) 511 449921;
-          </div>
-        </div>
-      </div>
+     
     </>
   )
 }
